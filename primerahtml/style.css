@@ -1,0 +1,90 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
+p {
+  color: aqua;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12px;
+  text-align: left;
+}
+
+footer {
+  background-color: gray;
+  padding: 30px;
+  text-align: center;
+}
+
+.container {
+  padding: 50px;
+  margin: 0;
+  border: 15px;
+  background-color: rgb(171, 171, 171); 
+}
+
+.dark {
+  background-color: rgb(57, 55, 55);
+  height: auto;
+  text-align: center ;
+  padding: 20px;
+  margin-block-end: 15px;
+}
+
+.dark__image{
+  width: 60%;
+  height: 50%;
+  padding: 30px;
+  
+}
+
+.header {
+  background-color: rgb(58, 58, 58);
+  height: auto;
+  width: 100%;
+  text-align: center ;
+  padding: 50px 0;
+}
+
+.header__title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+}
+.nav {
+  background-color: rgb(142, 141, 141);
+  height: auto;
+  width: 100%;
+  text-align: center ;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 20px 0;
+}
+
+.nav__title{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: #0c38eb;
+}
+
+.main {
+  display: flex;
+}
+
+.my-info {
+  background-color: rgb(138, 136, 138);
+  padding: 15px 15px 0 15px;
+  margin-right: 16px;
+  min-width: 50%;
+}
+.article{
+
+}
+:nth-child()

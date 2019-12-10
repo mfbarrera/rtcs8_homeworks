@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+ ] <body>
+    <div class="bem">
+      <div class="bem__col">
+        <h1 class="container__title">BEM</h1>
+        <p>
+          it is a known fact that the right styleguide can significantly
+          increase development speed, debugging, and the implementation of new
+          features in legacy code. Sadly, most CSS codebases are sometimes
+          developed without any structure or naming conventions. This leads to
+          an unmaintainable CSS codebase in the long term.
+        </p>
+        <p>
+          The BEM approach ensures that everyone who participates in the
+          development of a website works with a single codebase and speaks the
+          same language. Using proper naming will prepare you for the changes in
+          design of the website.
+        </p>
+      </div>
+      <div class="bem__col">
+        <div class="image-container">
+          <img
+            class="bem__image"
+            src="2019-12-04_2225.png"
+            alt="example of BEM used on css."
+          />
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="box box--block">
+        <h2 class="container__title">block</h2>
+        <p>
+          Encapsulates a standalone entity that is meaningful on its own. While
+          blocks can be nested and interact with each other, semantically they
+          remain equal; there is no precedence or hierarchy. Holistic entities
+          without DOM representation (such as controllers or models) can be
+          blocks as well.
+        </p>
+      </div>
+      <div class="box box--element">
+        <h2 class="container__title title--others">elements</h2>
+        <p>
+          Parts of a block and have no standalone meaning. Any element is
+          semantically tied to its block.
+        </p>
+      </div>
+      <div class="box box--modifier">
+        <h2 class="container__title">modifier</h2>
+        <p>
+          Flags on blocks or elements. Use them to change appearance, behavior
+          or state.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
