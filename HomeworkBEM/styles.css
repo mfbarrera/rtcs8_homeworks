@@ -4,14 +4,14 @@ body {
 }
 
 sup {
-    font-size: 15px;
+    font-size: 14px;
     
 }
 
 .hero {
     /* height: 500px;
     width: 100%; */
-    padding: 100px;
+    padding: 130px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,8 +20,8 @@ sup {
 }
 
 .hero__title {
-    color: rgb(48, 48, 48);
-    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
     font-weight: 800;
     font-family: Arial, Helvetica, sans-serif;
     font-variant: small-caps;
@@ -29,8 +29,8 @@ sup {
 }
 
 .hero__description{
-    color: rgb(85, 82, 82);
-    font-size: 28px;
+    color: rgb(177, 140, 140);
+    font-size: 26px;
     font-family: 'Courier New', Courier, monospace;
     font-variant: initial;
     font-weight: 400;
@@ -48,10 +48,10 @@ sup {
 
 
 .container{
-    margin: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 50px;
 }
 
 .card{
@@ -67,22 +67,34 @@ sup {
     margin: 15px;
     padding: 2px 20px 25px 20px;
     text-align: center;
-    width: 320px;
+    width: 340px;
 }
 
 .card__eyebrow{
     font: bold;
     font-size: 40px;
-    font-family: monospace;
-    font-variant: small-caps;
-    color: rgb(17, 187, 206);
+    font-family: 'Courier New', Courier, monospace;
+    font-variant-caps: all-petite-caps;
+    color: rgb(49, 106, 130);
     margin-bottom: 15px;
     max-width: 100%;
+} 
+
+.card__eyebrow--green{
+    color: rgb(45, 199, 14);
+}
+
+.card__eyebrow--blue {
+    color: hsl(203, 100%, 50%);
+}
+
+.card__eyebrow--red {
+    color: #e63125fc;
 }
 
 .card__title{
     color: rgba(34, 34, 34, 0.934);
-    font-size: 40px;
+    font-size: 35px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-transform: capitalize;
     margin-bottom: 25px;
@@ -99,11 +111,23 @@ sup {
 .card__button{
     align-items: flex-end;
     margin-top: 50px;
-    background-color: rgb(49, 145, 186);
+    background-color:  rgb(49, 106, 130);
     padding: 10px 20px;
-    border-radius: 2px;
+    border-radius: 3px;
     color: antiquewhite;
     font-size: 18px;
     text-transform: initial;
     cursor: pointer;
+}
+
+.card__button--green {
+    background-color: rgb(45, 199, 14);
+}
+
+.card__button--blue{
+    background-color: hsl(203, 100%, 50%);
+}
+
+.card__button--red {
+    background-color: #e63125fc;
 }
