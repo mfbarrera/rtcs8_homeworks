@@ -42,6 +42,6 @@ body {
 }
 
 .card__item--large {
-    min-width: 500px; 
+    min-width: auto; 
     flex-basis: 600px
 }
